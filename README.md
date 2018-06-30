@@ -1,6 +1,3 @@
-# xpdo
-
-
 <h1 id="pdox-documentation">xPdo Documentação</h1>
 <h2 id="install">Instalar</h2>
 
