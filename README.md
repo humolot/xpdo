@@ -22,19 +22,6 @@ $db = new xPdo($config);</code></pre>
 <p>Parabéns! Agora você pode usar o xPdo.</p>
 <p>Se você tiver um problema, você pode entrar em contato comigo</a>.</p>
 <h1 id="detailed-usage-and-methods">Uso Detalhado e Métodos</h1>
-<h2 id="config">config</h2>
-<pre class="sourceCode php"><code class="sourceCode php">$config = [
-    &#39;host&#39;      =&gt; &#39;localhost&#39;,
-    &#39;driver&#39;    =&gt; &#39;mysql&#39;,
-    &#39;database&#39;  =&gt; &#39;test&#39;,
-    &#39;username&#39;  =&gt; &#39;root&#39;,
-    &#39;password&#39;  =&gt; &#39;&#39;,
-    &#39;charset&#39;   =&gt; &#39;utf8&#39;,
-    &#39;collation&#39; =&gt; &#39;utf8_general_ci&#39;,
-    &#39;prefix&#39;    =&gt; &#39;&#39;
-];
-
-$db = new \Buki\Pdox($config);</code></pre>
 <h2 id="contents">Conteúdo</h2>
 <ul>
 <li><a href="#encode">Encode/Decode</a><br /></li>
