@@ -24,40 +24,14 @@ $db = new xPdo($config);</code></pre>
 <h1 id="detailed-usage-and-methods">Uso Detalhado e Métodos</h1>
 <h2 id="config">config</h2>
 <pre class="sourceCode php"><code class="sourceCode php">$config = [
-    # Host name or IP Address (optional)
-    # hostname:port (for Port Usage. Example: 127.0.0.1:1010)
-    # default value: localhost
     &#39;host&#39;      =&gt; &#39;localhost&#39;,
-
-    # Database Driver Type (optional)
-    # default value: mysql
-    # values: mysql, pgsql, sqlite, oracle
     &#39;driver&#39;    =&gt; &#39;mysql&#39;,
-
-    # Database Name (required)
     &#39;database&#39;  =&gt; &#39;test&#39;,
-
-    # Database User Name (required)
     &#39;username&#39;  =&gt; &#39;root&#39;,
-
-    # Database User Password (required)
     &#39;password&#39;  =&gt; &#39;&#39;,
-
-    # Database Charset (optional)
-    # default value: utf8
     &#39;charset&#39;   =&gt; &#39;utf8&#39;,
-
-    # Database Charset Collation (optional)
-    # default value: utf8_general_ci
     &#39;collation&#39; =&gt; &#39;utf8_general_ci&#39;,
-
-    # Database Prefix (optional)
-    # default value: null
-    &#39;prefix&#39;     =&gt; &#39;&#39;,
-
-    # Cache Directory of the Sql Result (optional)
-    # default value: __DIR__ . &#39;/cache/&#39;
-    &#39;cachedir&#39;  =&gt; __DIR__ . &#39;/cache/sql/&#39;
+    &#39;prefix&#39;    =&gt; &#39;&#39;
 ];
 
 $db = new \Buki\Pdox($config);</code></pre>
